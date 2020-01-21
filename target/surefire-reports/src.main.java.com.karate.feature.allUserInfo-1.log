@@ -1,0 +1,28 @@
+17:55:48.443 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+17:55:49.764 request:
+1 > GET https://gorest.co.in/public-api/users?first_name=john&status=inactive
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer dukCseb_1Y0P822I-fBZ6AWmnbdIfGe9fScp
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_181)
+
+17:55:53.823 response time in milliseconds: 4055.38
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sun, 19 Jan 2020 12:25:53 GMT
+1 < Link: <https://gorest.co.in/public-api/users?first_name=john&status=inactive&page=1>; rel=self
+1 < Server: nginx
+1 < Set-Cookie: _csrf=f4798ed42706b1ec083781f426c4bdbb8c72ce9fa3ffa13327c80dec3a5aca6ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NsjPtpEL1Gv8UIO1y840htsa2aRd1sMz%22%3B%7D; path=/; HttpOnly
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Accept]
+1 < X-Pagination-Current-Page: 1
+1 < X-Pagination-Page-Count: 1
+1 < X-Pagination-Per-Page: 20
+1 < X-Pagination-Total-Count: 2
+1 < X-Rate-Limit-Limit: 30
+1 < X-Rate-Limit-Remaining: 29
+1 < X-Rate-Limit-Reset: 2
+{"_meta":{"success":true,"code":200,"message":"OK. Everything worked as expected.","totalCount":2,"pageCount":1,"currentPage":1,"perPage":20,"rateLimit":{"limit":30,"remaining":29,"reset":2}},"result":[{"id":"113","first_name":"John","last_name":"Ferry","gender":"male","dob":"1984-05-22","email":"isobel38@example.net","phone":"+14573866285","website":"http://www.will.net/autem-est-sunt-voluptates-ad-rerum-excepturi","address":"9975 Urban Point\nNew Kirsten, ME 23155","status":"inactive","_links":{"self":{"href":"https://gorest.co.in/public-api/users/113"},"edit":{"href":"https://gorest.co.in/public-api/users/113"},"avatar":{"href":"https://lorempixel.com/250/250/people/?77055"}}},{"id":"410","first_name":"Johnny","last_name":"Emard","gender":"male","dob":"2016-01-06","email":"lubowitz.mose@example.net","phone":"+13524093517","website":"http://www.pacocha.biz/maxime-qui-autem-dolorem.html","address":"3910 Sonia Pines Suite 964\nSouth Carliville, ND 59356","status":"inactive","_links":{"self":{"href":"https://gorest.co.in/public-api/users/410"},"edit":{"href":"https://gorest.co.in/public-api/users/410"},"avatar":{"href":"https://lorempixel.com/250/250/people/?92484"}}}]}
+

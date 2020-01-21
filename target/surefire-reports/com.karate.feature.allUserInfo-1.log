@@ -1,0 +1,28 @@
+20:47:35.664 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+20:47:35.700 request:
+1 > GET https://gorest.co.in/public-api/users?first_name=john&status=active
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer dukCseb_1Y0P822I-fBZ6AWmnbdIfGe9fScp
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_181)
+
+20:47:36.169 response time in milliseconds: 469.20
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Mon, 20 Jan 2020 15:17:35 GMT
+1 < Link: <https://gorest.co.in/public-api/users?first_name=john&status=active&page=1>; rel=self
+1 < Server: nginx
+1 < Set-Cookie: _csrf=3fc471773ed3a2518a297fb0445cae76e61725576fa9c5842b01e9597660cc7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rvHSNSqdDnKG5jvLW4mFktELcOGFV18w%22%3B%7D; path=/; HttpOnly
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Accept]
+1 < X-Pagination-Current-Page: 1
+1 < X-Pagination-Page-Count: 1
+1 < X-Pagination-Per-Page: 20
+1 < X-Pagination-Total-Count: 5
+1 < X-Rate-Limit-Limit: 30
+1 < X-Rate-Limit-Remaining: 29
+1 < X-Rate-Limit-Reset: 2
+{"_meta":{"success":true,"code":200,"message":"OK. Everything worked as expected.","totalCount":5,"pageCount":1,"currentPage":1,"perPage":20,"rateLimit":{"limit":30,"remaining":29,"reset":2}},"result":[{"id":"42","first_name":"Johnathan","last_name":"Dach","gender":"male","dob":"1961-11-11","email":"pmosciski@example.net","phone":"1-951-577-7382","website":"http://jaskolski.biz/","address":"365 Santino Keys\nNew Xavier, NH 73822-5775","status":"active","_links":{"self":{"href":"https://gorest.co.in/public-api/users/42"},"edit":{"href":"https://gorest.co.in/public-api/users/42"},"avatar":{"href":"https://lorempixel.com/250/250/people/?29938"}}},{"id":"457","first_name":"Johnathon","last_name":"Runte","gender":"male","dob":"1990-04-27","email":"zwaters@example.org","phone":"721-534-8686","website":"https://www.spencer.com/maiores-quia-corrupti-sequi-soluta-eum-consectetur-soluta-necessitatibus","address":"62903 Guy Spurs\nEast Iliana, WV 03499-2546","status":"active","_links":{"self":{"href":"https://gorest.co.in/public-api/users/457"},"edit":{"href":"https://gorest.co.in/public-api/users/457"},"avatar":{"href":"https://lorempixel.com/250/250/people/?64464"}}},{"id":"525","first_name":"Johnathon","last_name":"Waelchi","gender":"male","dob":"1998-07-13","email":"dayton16@example.org","phone":"293-683-7816","website":"http://www.adams.com/","address":"28234 Shakira Club\nFelixberg, VT 54798-1846","status":"active","_links":{"self":{"href":"https://gorest.co.in/public-api/users/525"},"edit":{"href":"https://gorest.co.in/public-api/users/525"},"avatar":{"href":"https://lorempixel.com/250/250/people/?55675"}}},{"id":"938","first_name":"John","last_name":"Emmerich","gender":"male","dob":"2007-06-08","email":"shany60@example.org","phone":"817.632.9687","website":"http://cormier.com/quis-non-sunt-quis-repudiandae-aperiam","address":"90874 Aron Place Suite 880\nRippinberg, MD 76608","status":"active","_links":{"self":{"href":"https://gorest.co.in/public-api/users/938"},"edit":{"href":"https://gorest.co.in/public-api/users/938"},"avatar":{"href":"https://lorempixel.com/250/250/people/?65156"}}},{"id":"1257","first_name":"Johnny","last_name":"Luettgen","gender":"male","dob":"1944-05-31","email":"grimes.velda@example.com","phone":"793-514-0564","website":"http://goldner.net/necessitatibus-eos-dolorum-autem-temporibus-esse-omnis-aut","address":"78799 Stanton Walks\nHadleyville, KY 01944-0300","status":"active","_links":{"self":{"href":"https://gorest.co.in/public-api/users/1257"},"edit":{"href":"https://gorest.co.in/public-api/users/1257"},"avatar":{"href":"https://lorempixel.com/250/250/people/?36880"}}}]}
+
